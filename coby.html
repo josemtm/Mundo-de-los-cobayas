@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+      .navbar {
+        background-color: black !important;
+      }
+      .nav-link{
+        color: white !important;
+      }
+      .navbar-brand{
+        color: white !important;
+
+      }
+
+      .carousel-inner > .item > img {
+        object-fit: scale-down;
+        height: 50vh;
+        width: 100%;
+          }
+
+        html, body {
+          height: 100% !important;
+        }
+
+        img{
+          max-width: 100% !important;
+        }
+
+        #portada {
+          background-size: cover;
+          background:#222 url(http://4.bp.blogspot.com/-3TLR2nMCXFc/U4z1F75K-JI/AAAAAAAABAs/W5PN9aHaAGc/s1600/url.jpg) center center no-repeat;
+          height: 100%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          width: 100%;
+
+        }
+        #texto-portada{
+          width: 100%;
+          color: white;
+        }
+      </style>
+
+    <title>Mundo de las Cobayas</title>
+  </head>
+
+  <body>
+
+  <!-- Portada -->
+
+  <section id="portada">
+    <div id="texto-portada">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="display-1 text-primary font-weight-bold">Mundo de las Cobayas</h1>
+            <p class="display 3 text-primary font-weight-bold">Bienvenido al maravilloso mundo de las cobayas</p>
+            <form action="" class="form-inline justify-content-center">
+              <div class="form-group">
+                <label for="nombre"></label>
+                <input type="text" name="nombre" class="form-control form-control-lg" placeholder="Introduce tu Nombre">                
+              </div> 
+              <div class="form-group">
+                <label for="email"></label>
+                <input type="email" name="email" class="form-control form-control-lg" placeholder="Introduce tu Email">
+                <button type="submit" class="btn btn-primary btn-lg">Suscribirse</button>                
+              </div>             
+            </form>
+          </div>          
+        </div>
+      </div>
+    </div>   
+  </section>
+
+  <!-- barra de navegacion -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contacto
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Telefonos</a>
+                <a class="dropdown-item" href="#">Email</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ir</button>
+          </form>
+        </div>
+  </nav>
+
+  <!-- Carrusel -->
+<section #carrusel1>
+
+<div id="carrusel1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carrusel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carrusel1" data-slide-to="1"></li>
+        <li data-target="#carrusel1" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://estaticos.muymascotas.es/media/cache/1140x_thumb/uploads/images/gallery/59280f1d5bafe8fff9aee74a/cobaya-cubo_1.jpg" class="d-block w-100 img-fluid" alt="cobaya-frente">
+          <div class="carousel-caption">
+            <h3>Rostro de cobaya</h3>
+            <p>Imagen Profesional</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/bebe.jpg" class="d-block w-100 img-fluid" alt="cobaya-bebe">
+          <div class="carousel-caption">
+            <h3>Cobaya Bebe</h3>
+            <p>Autor Pezibear</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/familia.jpg" class="d-block w-100 img-fluid" alt="cobaya-familia">
+          <div class="carousel-caption">
+            <h3 style="color: black">Familia de cobayas</h3>
+            <p style="color: black">Autor Pezibear</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carrusel1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carrusel1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+</div>
+</section>
+
+<!-- Empresa -->
+
+<section id="empresa">
+  <div class="contenido-seccion">
+    <div class="container">
+      <h2>Acerca de Mundo de las Cobayas</h2>
+      <p class="lead">Mundo de las Cobayas es un portal dedicado a difundir informacion, imagenes y espacios para la comunidad de los amantes de los cobayos </p>
+      <div class="row">
+        <div class="col-sm-12">
+
+          <!-- cards -->
+
+          <div class="card-group">
+  <div class="card">
+    <img src="img/articulo.jpg" class="card-img-top" alt="articulos">
+    <div class="card-body">
+      <h5 class="card-title">Articulos</h5>
+      <p class="card-text">Aqui encontraras articulos con informacion para el cuidado de tu cobayo</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/mirando.jpg" class="card-img-top" alt="cobaya-mirando">
+    <div class="card-body">
+      <h5 class="card-title">Imagenes</h5>
+      <p class="card-text">Comparte imagenes con otros amantes de los cobayos.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/fiesta.jpg" class="card-img-top" alt="cobaya-cumpleaños">
+    <div class="card-body">
+      <h5 class="card-title">Blog</h5>
+      <p class="card-text">Comparte aprendizaje y experiencias junto a otros usuarios en nuestro blog.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+      <!-- termina cards -->
+          
+        </div>        
+      </div>      
+    </div>
+  </div>
+</section>
+
+
+<footer id="footer-main" style="background: black">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p style="color: white">Creado por Jose Torrealba</p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Acerca de</a></li>
+                        <li><a href="">JoseT</a></li>
+                        <li><a href="">Últimas noticias</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">youtube</a></li>
+                        <li><a href="">linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6 style="color: white">Info</h6>
+                    <p style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam expedita fugit saepe, eum ad, quam! Eum magnam suscipit nulla ullam aliquam consectetur provident, nihil consequuntur porro labore asperiores corrupti esse?</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
